@@ -10,7 +10,7 @@ class ProcessingTest extends PApplet{
   var wave = ArrayBuffer[Float]()
   var path = ArrayBuffer[Float]()
   // slide values can span from 0 to 50 incremented by 5 to give different effects
-  val slide:Int = 1
+  val slide:Int = 5
   override def settings(): Unit ={
     size(600,400)
   }
@@ -36,7 +36,6 @@ class ProcessingTest extends PApplet{
     }
     wave+=y
     translate(200,0)
-    //x-200,y,0,wave(1)
     line(x-200,y,0,wave(0))
     beginShape()
     noFill()

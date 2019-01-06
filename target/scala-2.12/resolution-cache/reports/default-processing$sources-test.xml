@@ -7,7 +7,7 @@
 		revision="0.1"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20181226092355"/>
+		date="20190106125404"/>
 	<dependencies>
 		<module organisation="org.processing" name="net">
 			<revision name="3.0b5" status="release" pubdate="20151001015954" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="8">
